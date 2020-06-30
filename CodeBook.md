@@ -24,6 +24,7 @@ fBodyGyroJerkMag
 
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+
 # Cleaning Up Process
 The first step was to merge vertically the X_train and X_test dataset and the Y_train and Y_test dataset.
 Then merge orizzontaly the the two resultant datasets.
