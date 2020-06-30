@@ -1,6 +1,6 @@
 
 # Variable and Data Description
-In the dataset obtained after the cleaning process you will find 67 column and only 6 rows.
+In the dataset obtained after the cleaning process you will find 67 columns and only 6 rows.
 Each row represents an activity.
 The last column is the activity performed while the other are the averaged mean and std measurement for that activity of the following variables:
 
@@ -24,6 +24,14 @@ The last column is the activity performed while the other are the averaged mean 
 
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
+The observed activities are:
+
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
 
 # Cleaning Up Process
 The first step was to merge vertically the X_train and X_test dataset and the Y_train and Y_test dataset.
