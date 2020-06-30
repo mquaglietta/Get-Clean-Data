@@ -47,6 +47,7 @@ Then merge orizontally the resultant datasets.
 Created this complete dataset I:
 1. Read the features list
 2. Grep mean and std variables from the features list
-3. Renamed columns with the feature list and last labels (Subject and Activity)
-4. Renamed all the activity with the rispettive label
-5. Used dplyr to group by activity and subject and average all values
+3. Filtered the original list for mean and std
+4. Renamed columns with the feature list and last labels (Subject and Activity)
+5. Renamed all the activity with the rispettive label
+6. Used dplyr to group by activity and subject and average all values
