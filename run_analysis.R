@@ -32,6 +32,9 @@ colnames(XYSubjects_cleaned) <- c(features$V2[features_index], "Subject", "Activ
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 XYSubjects_cleaned$Activity <- activity_labels$V2[XYSubjects_cleaned$Activity]
 
+# Group by Activity and Subject
 new_dataset <- tbl_df(XYSubjects_cleaned)
 new_dataset <- new_dataset %>% group_by(Subject, Activity) %>% summarise(across(1:66, mean))
+
+# Write file
 write.table(new_dataset, "tidy.txt", row.name=FALSE) 
