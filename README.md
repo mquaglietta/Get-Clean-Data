@@ -10,6 +10,12 @@ The goal of this project was to create one R script called run_analysis.R that, 
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+## File description
+The directory 'UCI HAR Dataset' contains the original dataset.
+There are also 2 file:
+* CodeBook.md : A file containing description of variable and process to obtain the tidy dataset
+* run_analisys.R : Script that manipulate the original data to obtain the tidy dataset
+
 ## Prerequisites
 1. [RStudio](https://rstudio.com)
 2. [MikTex](https://miktex.org)
